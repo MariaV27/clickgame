@@ -1,0 +1,52 @@
+
+header {
+  background: url(http://vignette2.wikia.nocookie.net/en.futurama/images/1/1f/Futurama-cast.png/revision/latest?cb=20150208160932);
+  width: fill;
+  height: fill;
+  background-position: center;
+}
+body {
+  background-color: rgb(193, 117, 117)
+}
+
+.well {
+  background-color: rgba(43, 33, 33, 0.81)
+
+}
+img {
+position: relative;
+  right: -38%;
+  width: 380px; 
+  height: 220px;
+}
+h1,p {
+ text-align: center;
+ margin: auto;
+ color: blue;
+}
+p {
+  font: caption;
+  font-size: 22px;
+}
+
+
+.btn-primary {
+    position: relative;
+    right: 130px;
+    height: 50px;
+    width: 110px;
+}
+.btn-danger {
+    position: relative;
+    left: 130px;
+    height: 50px;
+    width: 110px;
+}
+
+
+.cast {
+  position: relative;
+  width: 55%;
+  right: -19%;
+}
+
