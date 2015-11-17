@@ -13,11 +13,10 @@
     <div class="row">
       <div class="well">
         <h1>Rama-Click<br>
-        <button class="btn btn-primary" type="button">Start</button> 
-        <button class="btn btn-danger" type="button">Stop</button>
+        <button class="btn btn-primary" onclick="countdown()" type="button">Start</button> <button class="btn btn-danger" type="button">Stop</button>
         </h1>
         <br>
-        <p>You have 20 seconds to click all the pictures</p>
+        <p>You have 10 seconds to click all the pictures</p>
       </div>
     </div>
   </div>
@@ -25,35 +24,32 @@
     <div class="row">
       <div class="cast">
         <div class="col-xs-3">
-          <img class="img-responsive" id="amy" src="ico/amy.png"> 
-          <img class="img-responsive" id="leela" src="ico/leela.png"> 
-          <img class="img-responsive" id="bender" src="ico/bender.png"> 
-          <img class="img-responsive" id="fry" src="ico/fry.png">
+          <img class="img-responsive" id="amy" src="ico/amy.png" onclick="countup(); this.onclick=null"> 
+          <img class="img-responsive" id="leela" src="ico/leela.png" onclick="countup(); this.onclick=null"> 
+          <img class="img-responsive" id="bender" src="ico/bender.png" onclick="countup(); this.onclick=null"> 
+          <img class="img-responsive" id="fry" src="ico/fry.png" onclick="countup(); this.onclick=null">
         </div>
         <div class="col-xs-3">
-          <img class="img-responsive" id="malfunctioning_eddy" src="ico/malfunctioning_eddy.png"> 
-          <img class="img-responsive" id="roberto" src="ico/roberto.png"> 
-          <img class="img-responsive" id="calculon" src="ico/calculon.png"> 
-          <img class="img-responsive" id="hermes" src="ico/hermes.png">
+          <img class="img-responsive" id="malfunctioning_eddy" src="ico/malfunctioning_eddy.png" onclick="countup(); this.onclick=null"> 
+          <img class="img-responsive" id="roberto" src="ico/roberto.png" onclick="countup(); this.onclick=null"> 
+          <img class="img-responsive" id="calculon" src="ico/calculon.png" onclick="countup(); this.onclick=null"> 
+          <img class="img-responsive" id="hermes" src="ico/hermes.png" onclick="countup(); this.onclick=null">
         </div>
         <div class="col-xs-3">
-          <img class="img-responsive" id="nibbler" src="ico/nibbler.png"> 
-          <img class="img-responsive" id="zoidberg" src="ico/zoidberg.png"> 
-          <img class="img-responsive" id="robo_fry" src="ico/robo_fry.png"> 
-          <img class="img-responsive" id="robot_devil" src="ico/robot_devil.png">
+          <img class="img-responsive" id="nibbler" src="ico/nibbler.png" onclick="countup(); this.onclick=null"> 
+          <img class="img-responsive" id="zoidberg" src="ico/zoidberg.png" onclick="countup(); this.onclick=null"> 
+          <img class="img-responsive" id="robo_fry" src="ico/robo_fry.png" onclick="countup(); this.onclick=null"> 
+          <img class="img-responsive" id="robot_devil" src="ico/robot_devil.png" onclick="countup(); this.onclick=null">
         </div>
         <div class="col-xs-3">
-          <img class="img-responsive" id="url" src="ico/url.png">
-          <img class="img-responsive" id="robot_elder_no_3" src="ico/robot_elder_no_3.png"> 
-          <img class="img-responsive" id="downgraded_bender" src="ico/downgraded_bender.png"> 
-          <img class="img-responsive" id="fat_bot" src="ico/fat_bot.png">
+          <img class="img-responsive" id="url" src="ico/url.png" onclick="countup(); this.onclick=null">
+          <img class="img-responsive" id="robot_elder_no_3" src="ico/robot_elder_no_3.png" onclick="countup(); this.onclick=null"> 
+          <img class="img-responsive" id="downgraded_bender" src="ico/downgraded_bender.png" onclick="countup(); this.onclick=null"> 
+          <img class="img-responsive" id="fat_bot" src="ico/fat_bot.png" onclick="countup(); this.onclick=null">
          </div>
       </div>
     </div>
   </div>
-  <script src="js/script.js" type="text/javascript">
-  </script> 
-  <script src="js/functionScope.js" type="text/javascript">
-  </script>
+  <script src="js/script.js" type="text/javascript"> </script> 
 </body>
 </html>
