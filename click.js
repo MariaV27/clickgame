@@ -8,3 +8,12 @@ function displayModal() {
 }
  
 })
+
+$(document).ready(function(){
+  $('#verification-btn').on('click', function () {
+      $('#verification-btn').modal('show');
+  })
+
+
+
+});
